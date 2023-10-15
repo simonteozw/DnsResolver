@@ -32,8 +32,8 @@ typedef struct
 
 typedef struct
 {
-  uint16_t type_;
-  uint16_t class_;
+  uint16_t dnstype;
+  uint16_t dnsclass;
   uint32_t ttl;
   union
   {
