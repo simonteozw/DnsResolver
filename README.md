@@ -2,6 +2,11 @@
 
 My attempt to build a toy DNS resolver in c++. Reference: https://implement-dns.wizardzines.com/book/part_1, https://github.com/monstrous-moonshine/dns-weekend/blob/master/resolve.c
 
+## How to run
+
+1. compile client.cpp `g++ client.cpp -o client.out`
+2. run command `./client.out {domain name to resolve}`
+
 ## Learnings
 
 - Google public DNS resides on 8.8.8.8
